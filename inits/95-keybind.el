@@ -45,3 +45,10 @@
 ;; dash (cocoa-emacs only)
 (global-set-key (kbd "C-c d") 'dash-at-point)
 (global-set-key (kbd "C-c e") 'dash-at-point-with-docset)
+
+;; C-kで行全体を削除
+(setq kill-whole-line t)
+
+;; cuamode
+(cua-mode t)
+(setq cua-enable-cua-keys nil) ;; そのままだと C-x が切り取りになってしまったりするので無効化
