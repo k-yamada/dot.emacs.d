@@ -63,6 +63,9 @@
 ;; ウィンドウを左右に分割したときに行を折り返さない
 (setq-default truncate-partial-width-windows t)
 
+;; 行番号を表示する
+(global-linum-mode)
+
 ;; 列番号を表示
 (column-number-mode t)
 

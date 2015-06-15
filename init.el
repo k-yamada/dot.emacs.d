@@ -58,6 +58,8 @@
     web-beautify
     json-mode
     dockerfile-mode
+    smart-compile
+    rubocop
     ))
 
 (let ((not-installed (loop for x in installing-package-list
@@ -69,5 +71,4 @@
         (package-install pkg))))
 
 (require 'init-loader)
-(setq init-loader-show-log-after-init nil)
 (init-loader-load "~/.emacs.d/inits")

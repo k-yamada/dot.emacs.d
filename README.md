@@ -11,6 +11,10 @@
   * [init-loader.el と package.el を導入して快適 Emacs ライフ - Qiita](http://qiita.com/catatsuy/items/5f1cd86e2522fd3384a0)
   * [これが今の私の Emacs の設定です - Qiita](http://qiita.com/catatsuy/items/55d50d13ebc965e5f31e)
 
+## Ruby 環境設定
+
+    gem install rcodetools
+    rbenv rehash
 
 ## Go 環境設定
 
@@ -24,6 +28,7 @@ Go 自体の設定は終わっていること前提
 
     npm install -g gh-markdown-cli
     npm install -g js-beautify
+
 
 ## elisp の追加
 
