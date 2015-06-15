@@ -1,8 +1,11 @@
-; anythingでファイルを切り替える
+;; anything
+;; ----------
+;; anythingでファイルを切り替える
 (global-set-key (kbd "C-l") 'anything-for-files)
+(global-set-key (kbd "M-x") 'anything-execute-extended-command)
 
 ;; C-hをBSに
-(global-set-key (kbd "C-h") 'backward-delete-char)
+;;(global-set-key (kbd "C-h") 'backward-delete-char)
 
 ;; 行番号を指定して移動する機能をM-zに割り当て
 (global-set-key (kbd "M-z") 'goto-line)

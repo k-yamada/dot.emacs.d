@@ -31,7 +31,7 @@ elisp を追加したい時は `site-lisp` に突っ込むか `package.el` で�
 
 `package.el` で入れられるものは必ずこちらでいれて `init.el` に書いておく
 
-`M-x package-list-packages` とやると一覧が見れて `i` で選択， `x` を押すとインストールできる
+ `M-x package-list-packages` とやると一覧が見れて `i` で選択， `x` を押すとインストールできる
 
 入れられないものは手動で入れる
 

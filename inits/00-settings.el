@@ -62,3 +62,9 @@
 
 ;; ウィンドウを左右に分割したときに行を折り返さない
 (setq-default truncate-partial-width-windows t)
+
+;; 列番号を表示
+(column-number-mode t)
+
+;; 保存時に行末の空白を削除する
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
