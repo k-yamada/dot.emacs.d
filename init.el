@@ -60,6 +60,10 @@
     dockerfile-mode
     smart-compile
     rubocop
+    undo-tree
+    undohist
+    point-undo
+    redo+
     ))
 
 (let ((not-installed (loop for x in installing-package-list

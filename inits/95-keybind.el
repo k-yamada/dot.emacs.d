@@ -55,3 +55,10 @@
 ;; cuamode
 (cua-mode t)
 (setq cua-enable-cua-keys nil) ;; そのままだと C-x が切り取りになってしまったりするので無効化
+
+;; redo+
+(global-set-key (kbd "C-'") 'redo)
+
+;; point-undo
+(global-set-key (kbd "M-[") 'point-undo)
+(global-set-key (kbd "M-]") 'point-redo)
