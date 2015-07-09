@@ -6,7 +6,7 @@
       '((space-mark ?\x3000 [?\□])
         (tab-mark   ?\t   [?\xBB ?\t])
         ))
-(global-whitespace-mode f)
+(global-whitespace-mode t)
 
 (set-face-attribute 'whitespace-trailing nil
                     :foreground "DeepPink"
