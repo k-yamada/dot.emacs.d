@@ -7,6 +7,7 @@
         (tab-mark   ?\t   [?\xBB ?\t])
         ))
 (global-whitespace-mode t)
+(setq whitespace-line-column 240)
 
 (set-face-attribute 'whitespace-trailing nil
                     :foreground "DeepPink"
