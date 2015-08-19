@@ -17,6 +17,7 @@
     ;; ここに使っているパッケージを書く。
     init-loader
     anything
+    swift-mode
     php-mode
     scala-mode2
     markdown-mode
