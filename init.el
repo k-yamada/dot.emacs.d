@@ -78,3 +78,4 @@
 
 (require 'init-loader)
 (init-loader-load "~/.emacs.d/inits")
+(put 'set-goal-column 'disabled nil)
