@@ -37,6 +37,7 @@
     auto-complete
     foreign-regexp
     emmet-mode
+    csharp-mode
     auto-highlight-symbol
     highlight-symbol
     slim-mode
