@@ -29,6 +29,20 @@ Go 自体の設定は終わっていること前提
     npm install -g gh-markdown-cli
     npm install -g js-beautify
 
+## プログラム用フォントRictyをインストール
+
+```
+$ brew tap sanemat/font
+$ brew install ricty
+...
+To install Ricty:
+  $ cp -f /usr/local/Cellar/ricty/3.2.4/share/fonts/Ricty*.ttf ~/Library/Fonts/
+  $ fc-cache -vf
+
+# To install Rictyに表示されているコマンドを実行
+$ cp -f /usr/local/Cellar/ricty/3.2.4/share/fonts/Ricty*.ttf ~/Library/Fonts/
+$ fc-cache -vf
+```
 
 ## elisp の追加
 
