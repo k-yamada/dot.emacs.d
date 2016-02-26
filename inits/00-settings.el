@@ -28,6 +28,8 @@
                   'katakana-jisx0201
                   (cons "Ricty Discord" "iso10646-1"))
 
+(add-to-list 'default-frame-alist '(font . "Ricty Discord-14"))
+
 ;; コメントアウトの形式変更
 (setq comment-style 'multi-line)
 
