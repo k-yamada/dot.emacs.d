@@ -8,12 +8,6 @@
 (setq auto-save-file-name-transforms
       `((".*" ,(expand-file-name "~/.emacs.d/backup/") t)))
 
-; 言語を日本語にする
-(set-language-environment 'Japanese)
-
-; 極力UTF-8とする
-(prefer-coding-system 'utf-8)
-
 ;; font
 (set-face-attribute 'default nil
                     :family "Ricty Discord"
