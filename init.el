@@ -67,6 +67,7 @@
     point-undo
     redo+
     jsx-mode
+    quickrun
     ))
 
 (let ((not-installed (loop for x in installing-package-list

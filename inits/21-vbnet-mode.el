@@ -7,7 +7,7 @@
   (turn-on-font-lock)
   (turn-on-auto-revert-mode)
   (setq indent-tabs-mode nil)
-  (setq vbnet-mode-indent 4)
+  (setq vbnet-mode-indent 2)
   (setq vbnet-want-imenu t)
   ;; (require 'flymake)
   ;; (flymake-mode 1)
