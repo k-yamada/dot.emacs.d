@@ -23,6 +23,7 @@ Go 自体の設定は終わっていること前提
     go get golang.org/x/tools/cmd/goimports
     go get code.google.com/p/rog-go/exp/cmd/godef
     go get github.com/nsf/gocode
+    go get github.com/dougm/goflymake
 
 ## 必要なnpm
 
