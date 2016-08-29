@@ -58,3 +58,24 @@ elisp を追加したい時は `site-lisp` に突っ込むか `package.el` で�
   * [Typescript](http://blogs.msdn.com/b/interoperability/archive/2012/10/01/sublime-text-vi-emacs-typescript-enabled.aspx)
   * [ibus.el](http://www11.atwiki.jp/s-irie/pages/21.html) （Linux 環境のみ）
 # dot.emacs.d
+
+# よく使うコマンド
+
+参考: http://uguisu.skr.jp/Windows/emacs.html
+
+操作 | コマンド
+-----|-----
+anything | Ctrl+l
+split window right | Ctl+3
+change current window | Ctrl+x o
+copy selected area | M+w
+paste | Ctrl+y
+undo | Ctrl+/
+Query replace | M+%
+
+## カーソル操作
+
+操作 | コマンド
+-----|-----
+Page Down | Ctrl+v
+Page Up | alt+v
