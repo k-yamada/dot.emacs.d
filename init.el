@@ -81,3 +81,26 @@
 (require 'init-loader)
 (init-loader-load "~/.emacs.d/inits")
 (put 'set-goal-column 'disabled nil)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(coffee-tab-width 2)
+ '(display-time-mode t)
+ '(foreign-regexp/regexp-type (quote ruby))
+ '(google-translate-default-source-language "ja")
+ '(google-translate-default-target-language "en")
+ '(haskell-mode-hook (quote (turn-on-haskell-indentation)))
+ '(menu-bar-mode nil)
+ '(reb-re-syntax (quote foreign-regexp))
+ '(safe-local-variable-values (quote ((encoding . utf-8))))
+ '(tool-bar-mode nil)
+ '(transient-mark-mode t)
+ '(vc-handled-backends nil))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
