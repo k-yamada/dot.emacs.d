@@ -129,5 +129,6 @@
      [unspecified ,background ,red ,green ,yellow ,blue ,purple ,blue ,foreground])))
 
 (provide-theme 'me)
+(set-face-attribute 'region nil :background "#666" :foreground "#ffffff")
 
 ;;; tomorrow-night-theme.el ends here
