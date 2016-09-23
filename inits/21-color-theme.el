@@ -130,5 +130,6 @@
 
 (provide-theme 'me)
 (set-face-attribute 'region nil :background "#666" :foreground "#ffffff")
+(set-face-background hl-line-face "gray16")
 
 ;;; tomorrow-night-theme.el ends here
