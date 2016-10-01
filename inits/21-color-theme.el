@@ -127,9 +127,7 @@
    `(ansi-term-color-vector
      ;; black, red, green, yellow, blue, magenta, cyan, white
      [unspecified ,background ,red ,green ,yellow ,blue ,purple ,blue ,foreground])))
-
 (provide-theme 'me)
-(set-face-attribute 'region nil :background "#666" :foreground "#ffffff")
-(set-face-background hl-line-face "gray16")
+
 
 ;;; tomorrow-night-theme.el ends here

@@ -105,3 +105,6 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+(set-face-attribute 'region nil :background "#666" :foreground "#ffffff")
+(set-face-background hl-line-face "gray16")
