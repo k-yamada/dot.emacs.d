@@ -69,6 +69,7 @@
     jsx-mode
     quickrun
     protobuf-mode
+    web-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
