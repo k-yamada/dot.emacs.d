@@ -70,6 +70,7 @@
     quickrun
     protobuf-mode
     web-mode
+    vue-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
