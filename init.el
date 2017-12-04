@@ -18,6 +18,7 @@
     init-loader
     anything
     swift-mode
+    typescript-mode
     php-mode
     scala-mode2
     markdown-mode
@@ -71,6 +72,7 @@
     protobuf-mode
     web-mode
     vue-mode
+    format-sql
     ))
 
 (let ((not-installed (loop for x in installing-package-list

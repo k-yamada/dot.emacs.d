@@ -11,26 +11,13 @@
   * [init-loader.el と package.el を導入して快適 Emacs ライフ - Qiita](http://qiita.com/catatsuy/items/5f1cd86e2522fd3384a0)
   * [これが今の私の Emacs の設定です - Qiita](http://qiita.com/catatsuy/items/55d50d13ebc965e5f31e)
 
-## Ruby 環境設定
+## 環境構築
 
-    gem install rcodetools
-    rbenv rehash
+```
+$ make setup
+```
 
-## Go 環境設定
-
-Go 自体の設定は終わっていること前提
-
-    go get -u golang.org/x/tools/cmd/goimports
-    go get -u code.google.com/p/rog-go/exp/cmd/godef
-    go get -u github.com/nsf/gocode
-    go get -u github.com/dougm/goflymake
-
-## 必要なnpm
-
-    npm install -g gh-markdown-cli
-    npm install -g js-beautify
-
-## プログラム用フォントRictyをインストール
+### プログラム用フォントRictyをインストール
 
 ```
 $ brew tap sanemat/font
